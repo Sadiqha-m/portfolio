@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #f5f7fb;
+    color: #333;
+}
+
+/* ===== Navbar ===== */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #0a0f2c;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    font-size: 22px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-links a:hover{
+    color: #00c2ff;
+}
+
+/* ===== Home ===== */
+.home{
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #0a0f2c, #1b2a6b);
+    color: white;
+}
+
+.home h1{
+    font-size: 40px;
+}
+
+.home h2{
+    margin-top: 10px;
+}
+
+.home p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.buttons{
+    margin-top: 25px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 12px 25px;
+    background: #00c2ff;
+    color: black;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* ===== Sections ===== */
+section{
+    padding: 70px 10%;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0a0f2c;
+}
+
+/* ===== Skills ===== */
+.skills-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.skills-box div{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+/* ===== Projects ===== */
+.project-card{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* ===== Contact ===== */
+.contact{
+    text-align: center;
+    background: #0a0f2c;
+    color: white;
+}
+
+.contact h2{
+    color: white;
+}
+
+.contact p{
+    margin: 10px 0;
+}
